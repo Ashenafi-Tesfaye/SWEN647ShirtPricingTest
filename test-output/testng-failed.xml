@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="swen647.umgc.SWEN647ShirtPricingTest.ShirtPricingUITest">
+        <methods>
+          <include name="setup"/>
+          <include name="testMaximumInput"/>
+          <include name="tearDown"/>
+          <include name="testInvalidInput"/>
+          <include name="testMinimumInput"/>
+        </methods>
+      </class> <!-- swen647.umgc.SWEN647ShirtPricingTest.ShirtPricingUITest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

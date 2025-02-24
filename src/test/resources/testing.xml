@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ShirtPricingTestSuite">
+    <test name="ShirtPricingTests">
+        <classes>
+            <class name="swen647.umgc.SWEN647ShirtPricingTest.ShirtPricingTest"/>
+        </classes>
+    </test>
+</suite>
