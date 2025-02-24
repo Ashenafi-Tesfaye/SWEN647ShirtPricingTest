@@ -14,6 +14,6 @@ public class ViewController {
     @GetMapping("/")
     public String showForm(Model model) {
         model.addAttribute("priceRequest", new PriceRequest());
-        return "index";
+        return  "forward:/index.html"; 
     }
 }
